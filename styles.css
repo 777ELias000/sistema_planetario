@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+   
+}
+body{
+    background-color :rgb(1, 1, 15) ;
+    background-image : url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/12/sistema-solar-2158851.jpg") ;
+    background-repeat:no-repeat; /*sirve para que nose repita*/
+    background-position-x: center ;
+    background-position-y: center ;
+    
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#sis{
+
+    background-color: aquamarine;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    color: rgb(1, 7, 14);
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+header{
+    background-color: #f2f2f2;
+    text-align:center;
+    padding: 25px 0;
+
+}
+ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+li {float: left;}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;text-decoration: none;}
+li a:hover {
+    background-color: #111;}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0a0a0a;
+    text-shadow:2px 1px 1px rgb(197, 170, 197) ;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 35px;
+
+}
+nav a:hover{
+    background-color: rgb(127, 202, 198);
+    color:#fff;
+}
+.encabezado-img{
+    
+    height: 500px;
+    display: flex;
+    flex-direction: center;
+    justify-content:center;
+    align-items: center;
+    color: rgb(233, 230, 230);
+    
+}
+.encabezado-img p{
+    font-size: 20px;
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+    text-align:left;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.parrafo{
+    z-index: 1;
+    padding: 20px 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    background: rgba(154, 157, 201, 0.829);
+    box-shadow: 1px 5px 25px rgba(201, 187, 187, 0.918);
+    border-radius: 5px;
+    text-align: justify;
+    font-family:'Gemunu Libre', sans-serif;
+    font-weight: bold;
+    
+}
+.parrafo img{
+    width:500px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-right: 15px;
+    object-fit: cover;
+    border: 2px solid red;
+
+}
+#mer{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#ven{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow;
+}
+#tir{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#mar{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#jup{
+    color:rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#sat{
+    color:rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#ura{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+#nep{
+    color: rgb(45, 155, 23);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px yellow ;
+}
+footer{
+    background-color:black;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
