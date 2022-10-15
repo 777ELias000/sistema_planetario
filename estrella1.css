@@ -14,7 +14,7 @@ body{
     background-color: aqua;
 }
  ol li{
-    list-style-image: url("/icono/ESTRELLAS\ \(124\).gif");
+    list-style-image: url("./icono/ESTRELLAS\ \(124\).gif");
     font-size: 30px;
     list-style-position: inside;
     
