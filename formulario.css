@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre&display=swap');
+
+body{
+    background-color :rgb(68, 68, 189) ;
+    }
+ul {
+    background-image : url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/12/sistema-solar-2158851.jpg") ;
+    background-repeat:no-repeat; /*sirve para que nose repita*/
+    background-position-x: center ;
+    background-position-y: center ;
+    
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    background-size: 100%;
+    list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+ li {float: left;}
+li a {
+    display: block;
+    color: rgb(219, 65, 65);
+    text-align: center;
+    padding: 14px 16px;text-decoration: none;}
+a:hover {
+    background-color: rgb(72, 182, 216);}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #8840db;
+    text-shadow:2px 1px 1px rgb(197, 15, 15) ;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 35px;
+  
+
+}
+#gal{
+    color: rgb(113, 231, 66);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    font-weight: bold;/*negrita*/
+    /* somb horizon -som vert- tamaño somb -color */
+    text-shadow:2px 1px 1px rgb(0, 0, 0) ;
+    margin-left: 0.5px;
+    text-align: center;
+    
+
+   
+
+}
+nav a:hover{
+    background-color: rgb(215, 223, 222);
+    color:#fff;
+}
+form{
+    background-color: rgb(197, 231, 231);
+}
+main{
+    padding: 50px 700px 100px 700px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: justify;
+
+
+}
+input[type=text]{
+    width: 50%;
+    padding: 10px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2536/2536748.png");
+    background-position: 10px 10px;
+    background-repeat:no-repeat;
+    padding-left: 40px;
+    background-size: 3%;
+    
+    transition:width 0.4 ease-in-out;
+
+
+
+
+}
+input[type=password]{
+    border:none;
+    border-bottom:2px solid blue;
+}
+#comentario{
+    background-color: rgb(211, 203, 192);
+}
+
+input[type=text]:focus{
+    background-color: aqua;
+    border:3px solid rosybrown;
+    width: 20%;
+
+}
+input[type=submit],input[type=button],input[type=reset]{
+    background-color: rgb(20, 201, 116);
+    border: none;
+    color:white;
+    padding: 16px;
+    cursor:pointer;
+}
+/* .parrafo{
+    width: 100%;
+    margin: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(224, 72, 72);
+    box-shadow: 0px 1px 10px  rgba(0, 0, 0, 2O);
+    cursor: default;
+    /*transition: all 400ms ease;*/
+footer{
+        background-color:black;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 20px;
+        color: aliceblue;
+        text-align: center;
+        }    
+    
